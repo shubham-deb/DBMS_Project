@@ -1,5 +1,6 @@
+# About Project
 <br />
-An annotated walkthrough of a system build/installation: https://youtu.be/BxubRuZ0hFE <br/>
+An annotated walkthrough of our system build/installation: https://youtu.be/BxubRuZ0hFE <br/>
 A demo video, showing input/output examples of all the task and report queries: https://youtu.be/vWCNvcl2iAI <br/>
 <br />
 Instructions for running trainly.io : <br />
@@ -23,7 +24,7 @@ password : 1234 <br/>
 
 
 <br />
-PROGRAM NAMES AND THEIR FUNCTION: <br />
+# PROGRAM NAMES AND THEIR FUNCTION: <br />
 server.js: This file imports all the libraries required to run the website on the browser. It also specifies the port number if we are running it on our local machine. <br />
 <br />
 public/server/services/user.service.server.js: This file consists of all the queries that it sends to the database management system which is MySQL in our case. Based on the type of request (GET, POST, PUT, DELETE), it will fetch the data from DBMS and send the data back as the response.<br />
