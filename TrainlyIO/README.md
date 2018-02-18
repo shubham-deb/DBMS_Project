@@ -1,4 +1,4 @@
-# PROGRAM NAMES AND THEIR FUNCTION: 
+## PROGRAM NAMES AND THEIR FUNCTION: 
 * server.js: This file imports all the libraries required to run the website on the browser. It also specifies the port number if we are running it on our local machine. 
 
 * public/server/services/user.service.server.js: This file consists of all the queries that it sends to the database management system which is MySQL in our case. Based on the type of request (GET, POST, PUT, DELETE), it will fetch the data from DBMS and send the data back as the response.
@@ -19,7 +19,7 @@
 
 * package.json: it contains all the libraries which are required to run the database on the browser. We don’t have to download them from the websites as it will get automatically imported when we run it on our browser. 
 
-# CREDENTIALS REQUIRED TO LOG INTO THE SYSTEM
+## CREDENTIALS REQUIRED TO LOG INTO THE SYSTEM
 
 Admin credentials : 
 email : chang.chen2@husky.neu.edu 
